@@ -7,6 +7,8 @@ license = "MIT"
 repository = "https://github.com/KooshaPari/tracely"
 keywords = ["tracing", "logging", "observability", "metrics", "opentelemetry"]
 
+[workspace]
+
 [dependencies]
 # Core tracing (from helix-tracing)
 tracing = "0.1"
