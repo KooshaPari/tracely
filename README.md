@@ -1,6 +1,26 @@
-# tracely
+# Tracely — Observability Primitives
 
 Unified observability library for Rust: distributed tracing, metrics, and structured logging in one package.
+
+## Crates
+
+| Crate | Path | Description |
+|-------|------|-------------|
+| tracely-core | `crates/tracely-core` | Core observability primitives |
+| tracely-sentinel | `crates/tracely-sentinel` | Monitoring and alerting |
+
+## Installation
+
+```toml
+[dependencies]
+tracely-core = { workspace = true }
+tracely-sentinel = { workspace = true }
+```
+
+## Workspace Note
+
+This workspace combines previously separate observability crates:
+- `phenoSentinel` → merged as `tracely-sentinel`
 
 ## Features
 
